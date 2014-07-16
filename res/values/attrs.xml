@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <declare-styleable name="YingshiImageViewAttr">
+        <attr name="face" format="reference"/>
+        <attr name="size">
+            <enum name="small" value="0" />
+            <enum name="middle" value="1" />
+            <enum name="big" value="2" />
+            <enum name="large" value="3" />
+            <enum name="zixun_index" value="4" />
+            <enum name="search_h" value="5" />
+            <enum name="search_v" value="6" />
+        </attr>
+    </declare-styleable>
+    
+    <declare-styleable name="ZixunImageViewAttr">
+        <attr name="mask" format="reference"/>
+        <attr name="poster_height" format="dimension"/>
+        <attr name="reflection_gap_top" format="dimension"/>
+        <attr name="reflection_height" format="dimension"/>
+    </declare-styleable>
+    
+    <declare-styleable name="ZixunListViewAttr">
+        <attr name="focus_bg" format="reference"/>
+        <attr name="focus_expanding_left" format="dimension"/>
+        <attr name="focus_expanding_top" format="dimension"/>
+        <attr name="focus_expanding_right" format="dimension"/>
+        <attr name="focus_expanding_bottom" format="dimension"/>
+    </declare-styleable>
+    
+    <declare-styleable name="RowWrapLayoutAttr">
+        <attr name="vSpacing" format="dimension"/>
+        <attr name="hSpacing" format="dimension"/>
+    </declare-styleable>
+    
+    <declare-styleable name="imeGridAttr">
+        <attr name="listSelector" format="integer"/>
+        <attr name="focusedItemId" format="integer"/>
+    </declare-styleable>
+    
+    <declare-styleable name="FocusedLinearLayoutAttr">
+        <attr name="focus_shadow" format="integer"/>
+    </declare-styleable>
+    
+    <declare-styleable name="FocusedButtonAttr">
+        <attr name="selected_icon" format="integer"/>
+        <attr name="selected" format="boolean"/>
+        <attr name="selected_icon_left" format="dimension" />
+        <attr name="selected_icon_top" format="dimension" />
+    </declare-styleable>
+    
+    
+</resources>

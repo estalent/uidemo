@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- margin -->
+    <dimen name="tui_margin_1">12dip</dimen>
+    <dimen name="tui_margin_2">16dip</dimen>
+    <dimen name="tui_margin_3">20dip</dimen>
+    <dimen name="tui_margin_4">24dip</dimen>
+    <dimen name="tui_margin_5">48dip</dimen>
+    <dimen name="tui_margin_6">64dip</dimen>
+    <dimen name="tui_margin_7">80dip</dimen>
+    <dimen name="tui_margin_8">100dip</dimen>
+    
+    <!-- padding -->
+    <dimen name="tui_padding_1">24dip</dimen>
+    <dimen name="tui_padding_2">48dip</dimen>
+    <dimen name="tui_padding_3">64dip</dimen>
+    <dimen name="tui_padding_4">60dip</dimen>
+    <dimen name="tui_padding_5">100dip</dimen>
+    
+    <!-- =========高度======== -->
+    <dimen name="tui_btn_height">48dip</dimen> <!-- normal btn的高度 -->
+    <dimen name="tui_line_height_1">64dip</dimen> <!-- list行高的标准高度（最小高度） -->
+    <dimen name="tui_line_height_3">77dp</dimen>
+    <dimen name="tui_line_height_2">80dip</dimen> <!-- header高度／list较宽的行高 -->
+    
+    <!-- =========文字大小======== -->
+    <dimen name="tui_text_size_1">16sp</dimen> <!-- 时间／消息提示 -->
+    <dimen name="tui_text_size_2">24sp</dimen> <!-- normal文字 -->
+    <dimen name="tui_text_size_3">32sp</dimen> <!-- 大title／header上的tab文字 -->
+    
+    <!-- 四种图片(small,middle,big,large)及其相关grid大小-->
+    <dimen name="image_small_w">130dip</dimen>
+    <dimen name="image_small_h">176dip</dimen>
+    <dimen name="grid_small_w">144dip</dimen>
+    
+    <!-- grid中的图片外框的大小,宽高需要按比例: image_middle_wrap_w/image_middle_wrap_h == image_middle_w/image_middle_h -->
+    <dimen name="grid_middle_w">172dip</dimen>
+    <dimen name="image_middle_w">156dip</dimen>
+    <dimen name="image_middle_h">218dip</dimen>
+  
+ 	<dimen name="image_big_w">272dip</dimen>
+    <dimen name="image_big_h">360dip</dimen>
+    
+    <dimen name="image_homeshell_w">264dp</dimen>
+    <dimen name="image_homeshell_h">396dp</dimen>
+    <dimen name="grid_search_w">151dip</dimen>
+    <dimen name="image_search_w">144dip</dimen>
+    <dimen name="image_search_h">201dip</dimen>
+    
+    <dimen name="zixun_index_item_w">176dip</dimen>
+    <dimen name="zixun_index_image_w">160dip</dimen>
+    <dimen name="zixun_index_image_h">120dip</dimen>
+    
+    <dimen name="yingshi_index_item_w">160dip</dimen>
+    <dimen name="yingshi_index_image_w">146dip</dimen>
+    <dimen name="yingshi_index_image_h">204dip</dimen>
+    
+    <dimen name="index_leftpadding">50dip</dimen>
+    
+    <dimen name="playback_item_h">240dip</dimen>
+    <dimen name="playback_image_w">160dip</dimen>
+    <dimen name="playback_image_h">120dip</dimen>
+ 	
+    <!-- coverflow -->
+    <dimen name="grid_coverflow_h">260dip</dimen>
+    <dimen name="image_coverflow_w">146dip</dimen>
+    <dimen name="image_coverflow_h">204dip</dimen>
+    <dimen name="coverflow_textspacinig">10dip</dimen>
+    <dimen name="coverflow_selector_padding">10dip</dimen>
+    <dimen name="coverflow_h_spacing">25dip</dimen>
+    <integer name="coverflow_mid_count">5</integer>
+    <integer name="coverflow_anim_during">500</integer>
+    
+    <!-- 收藏无数据页面默认图大小 -->
+    <dimen name="image_favor_nodata_w">268dip</dimen>
+    <dimen name="image_favor_nodata_h">268dip</dimen>
+    
+    <!-- 详情页广告 -->
+    <dimen name="image_ad_w">147dip</dimen>
+    <dimen name="image_ad_h">358dip</dimen>
+    
+    <!-- favor -->
+    <dimen name="favor_icon_w">44dip</dimen>
+    
+    <!-- 选集 -->
+    <dimen name="grid_xuanji_w">65dip</dimen>
+    
+    <dimen name="hlist_item_width">100dip</dimen>
+    <dimen name="hlist_item_height">160dip</dimen>
+    <dimen name="hlist_item_textsize">16sp</dimen>
+    <dimen name="favor_item_width">180dip</dimen>
+    <dimen name="favor_item_image_width">160dip</dimen>
+    <dimen name="favor_item_image_height">180dip</dimen>
+    <dimen name="favor_horizontalSpacing">5dip</dimen>
+    <dimen name="favor_verticalSpacing">15dip</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    
+    <dimen name="search_input_word_width">50dip</dimen>
+    <dimen name="search_input_word_height">60dip</dimen>
+    
+    <dimen name="detail_button_width">86dip</dimen>
+    <dimen name="detail_button_height">70dip</dimen>
+    <dimen name="detail_button_text_width">60dp</dimen>
+    
+    <dimen name="dialog_juhe_source_item_w">130dip</dimen>
+    <dimen name="dialog_juhe_source_item_h">105dip</dimen>
+    
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckBox xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="70dip"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/tui_btn_bg_normal"
+    android:button="@null"
+    android:gravity="center"
+    android:includeFontPadding="false"
+    android:text="@string/favor"
+    android:textColor="@drawable/checkbox_favor_text_color"
+    android:textSize="20sp" >
+
+</CheckBox>

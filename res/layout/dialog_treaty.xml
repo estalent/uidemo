@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yingshi_agreement"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/text_ok"
+        android:layout_width="140dip"
+        android:layout_height="70dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="520dip"
+        android:background="@drawable/tui_bg_focus_xml_c"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@android:string/ok"
+        android:textColor="@drawable/text_color"
+        android:textSize="26sp" />
+
+</LinearLayout>

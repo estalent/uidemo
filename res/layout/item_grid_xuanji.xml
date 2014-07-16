@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text_yingshi_grid"
+    android:layout_width="@dimen/grid_xuanji_w"
+    android:layout_height="@dimen/grid_xuanji_w"
+    android:gravity="center"
+    android:ellipsize="end"
+    android:lines="1"
+    android:textColor="@drawable/text_color"
+    android:textSize="@dimen/tui_text_size_3" />
+<!--一个汉字是两个字节，一个英文字母是一个字节  -->

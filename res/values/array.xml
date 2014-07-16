@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="coverflow_demo_title_array">
+        <item>黄小虎</item>
+        <item>丁当</item>
+        <item>Draft Punk</item>
+        <item>陶喆</item>
+        <item>陈奕迅</item>
+        <item>五月天</item>
+        <item>刘若英</item>
+        <item>杨宗纬</item>
+        <item>张震岳</item>
+        <item>王菲</item>
+        <item>戴佩妮</item>
+        <item>石进</item>
+        <item>李代沫</item>
+        <item>原生带</item>
+        <item>为是歌手</item>
+        <item>Lenka</item>
+        <item>蔡健雅</item>
+        <item>莫文蔚</item>
+        <item>邓福如</item>
+        <item>孙燕姿</item>
+        <item>梁静茹</item>
+        <item>EXO</item>
+        <item>Adele</item>
+        <item>群星</item>
+        <item>张惠妹</item>
+        <item>好妹妹乐队</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+ 	<!-- 名词 -->
+    <string name="app_name">影视</string>
+    <string name="movie">电影</string>
+    <string name="teleplay">电视剧</string>
+    <string name="zongyi">综艺</string>
+    <string name="cartoon">动漫</string>
+    <string name="liuchang">流畅</string>
+    <string name="gaoqing">高清</string>
+    <string name="biaoqing">标清</string>
+    <string name="languang">蓝光</string>
+    <string name="chaoqing">超清</string>
+    <string name="favor">收藏</string>
+    <string name="history">历史</string>
+    <string name="error_param">参数错误</string>
+    <string name="catalog_null">类目为空</string>
+	<string name="close">关闭</string>
+	<string name="unknown">未知</string>
+	<string name="play">播放</string>
+	<string name="huazhi_choose">画质选择</string>
+	<string name="huazhi_choose_result">已选择 </string>
+	<string name="all">全部 </string>
+	<string name="index">首页</string>
+	<string name="topic">专题</string>
+	<!-- 增加搜索类型 和app_name不使用同样的name -->
+	<string name="catelog_name_all">全部</string>
+	<string name="catelog_name_dianying">电影</string>
+	<string name="catelog_name_dianshiju">电视剧</string>
+    <string name="catelog_name_zixun">视频</string>
+    <string name="free">免费</string>
+    <string name="more">更多</string>
+    <string name="yuan">元</string>
+	<string name="yuanperji">元/集</string>
+	<string name="ji">集</string>
+	<string name="min">分钟</string>
+	<string name="sec">秒</string>
+	<string name="hour">小时</string>
+	<string name="today">今日</string>
+	<string name="month">月</string>
+	<string name="day">日</string>
+	
+	<!-- 热门推荐 -->
+    <string name="hot_recommand">热门推荐</string>
+	
+    <!-- 收藏 -->
+    <string name="favor_null">您还未收藏影片</string>
+    <string name="play_null">您还未播放过影片</string>
+    <string name="favor_title">我的收藏</string>
+    <string name="lastest_play">播放历史</string>
+
+    <!-- 搜索 -->
+    <string name="search_tip">输入拼音首字母搜索</string>
+    <string name="search_result1">共搜到</string>
+    <string name="search_result3">条结果</string>
+    <string name="zero">0</string>
+    <string name="search_result">个搜索结果</string>
+    <string name="search">搜索</string>
+    <string name="img_desc">视频图片</string>
+    <string name="loading_tip_title">正在加载</string>
+    <string name="search_range">搜索范围：</string>
+    <string name="blank">空格</string>
+    <string name="delete">删除</string>
+    <string name="clear">清空</string>
+    
+    <!-- 搜索输入提示 -->
+    <string name="search_input_tip3">大家都在搜:</string>
+    <string name="search_input_tip1">输入提示</string>
+    <string name="search_input_tip2">霍比特人</string>
+    <string name="search_input_tip_text_t9">
+        <![CDATA[
+		支持<font color="#ffffff">＂T9输入法＂ </font>搜索：<br />
+		例如电影<font color="#ffffff">《霍比特人》</font>的汉语拼音为
+		    	<font color="#ff6600">h</font>uo 
+		    	<font color="#ff6600">b</font>i 
+		    	<font color="#ff6600">t</font>e 
+		    	<font color="#ff6600">r</font>en
+    	<br />
+    	只需要输入＂<font color="#ff6600">4287</font>＂即可
+    	]]>
+    </string>
+    <string name="search_input_tip_text_pinyin">
+        <![CDATA[
+		支持<font color="#ffffff">＂拼音首字母＂ </font>搜索：<br />
+		例如电影<font color="#ffffff">《霍比特人》</font>的汉语拼音为
+		    	<font color="#ff6600">h</font>uo 
+		    	<font color="#ff6600">b</font>i 
+		    	<font color="#ff6600">t</font>e 
+		    	<font color="#ff6600">r</font>en
+    	<br />
+    	只需要输入＂<font color="#ff6600">hbtr</font>＂即可
+    	]]>
+    </string>
+    <string name="search_input_tip_text_bihua">
+        <![CDATA[
+		支持<font color="#ffffff">＂名称首笔画＂ </font>搜索：<br />
+		例如电影<font color="#ffffff">《霍比特人》</font>的首写笔画为
+		    	<font color="#ff6600">一一丿丿</font>
+    	<br />
+    	只需要输入＂<font color="#ff6600">一一 丿 丿</font>＂即可
+    	]]>
+    </string>
+    <!-- 电影 -->
+    <string name="detail_director_actor">导演：%1$s\n主演：%2$s</string>
+    <string name="lastplay_title">上次播放到</string>
+    <string name="keep_play_ask">，是否继续播放?</string>
+	<string name="keep_play">继续播放</string>
+	<string name="replay">重新播放</string>
+	<string name="rechoose_play">重新选集</string>
+    <string name="maybe_love">您可能喜欢</string>
+    <string name="yingshi_description">剧情简介</string>
+    <string name="querying">正在询价，请稍后</string>
+    
+    
+    <string name="nodata">暂无相关数据</string>
+    <string name="loadmore">正在加载更多&#8230;</string>
+    <string name="loadding">正在加载&#8230;</string>
+    
+    <!-- dialog & toast -->
+    <string name="network_config_message">无网络连接，请设置网络或稍后重试!</string>
+    <string name="netconfig">设置网络</string>
+    <string name="fail_get_play_source">播放资源获取失败</string>
+    <string name="fail_get_server_data">数据获取失败</string>
+    <string name="fail_get_yingshi_detail">获取影视详情失败</string>
+    <string name="fail_get_yingshi_detail_server_sys">影视不存在或已下线</string>
+    <string name="favor_success">收藏成功，您可以在“桌面-点播-收藏”中查看</string>
+    <string name="unfavor_success">收藏已取消</string>
+    <string name="loading_playbackbill">正在加载节目单信息...</string>
+    <string name="null_playbackbill">节目单为空!</string>
+    <string name="failt_get_juhe_play_link">获取视频URL失败</string>
+    <string name="toast_to_top">按遥控器“返回键”即可回到顶部菜单</string>
+    <string name="toast_uri_error">uri参数错误</string>
+    
+    <string name="ime_mode_t9">T9</string>
+    <string name="ime_mode_pinyin">拼音</string>
+    <string name="ime_mode_bihua">笔画</string>
+    <string name="ime_grid_item_clear">清空</string>
+    <string name="ime_grid_item_delete">删除</string>
+    
+    <string name="search_actor">主演：</string>
+    <string name="search_catalog">分类：</string>
+    
+    <string name="please_login_first">请先登录您的帐号</string>
+    <string name="please_login_go">登录</string>
+    
+    <!-- tag -->
+    <item type="id" name="is_requested"></item>
+    
+    <string name="scheme">yunostv_yingshi</string>
+    
+    <!-- error code msg  -->
+    <string name="error_unknow">系统未知异常</string>
+    <string name="error_urliliegal">请求地址非法</string>
+    <string name="error_ioexcption">网络数据读写错误</string>
+    <string name="error_unsupportencoding">编码错误,不支持的编码类型</string>
+    <string name="error_network_UnknownHostException">请求出错,域名无法解析</string>
+    <string name="error_network_InterruptedIOException">服务器连接超时，请检查网络设置</string>
+    <string name="error_network_HttpHostConnectException">服务器连接出错</string>
+    <string name="error_network_SocketException">网络数据传输出错</string>
+    <string name="error_network_other">网络发生错误,数据获取失败</string>
+    <string name="error_server_error">服务器内部错误</string>
+    <string name="error_server_fail">服务端接口调用失败</string>
+    <string name="error_server_sys">服务端系统错误</string>
+    <string name="error_server_invalid_params">请求参数错误</string>
+    <string name="error_server_no_api">调用了服务端不存在的API</string>
+    <string name="error_server_unsupportrequestmethod">服务端不支持的HTTP请求方式</string>
+    <string name="error_res_not_exist">请求的资源不存在</string>
+	
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yunos.tv.yingshi.widget.DetailButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/detail_button_width"
+    android:layout_height="@dimen/detail_button_height"
+    android:background="@drawable/tui_btn_bg_normal"
+    android:descendantFocusability="beforeDescendants"
+    android:focusable="true" >
+
+    <ImageView
+        android:id="@+id/detail_button_icon1"
+        android:layout_width="70dip"
+        android:layout_height="37dip"
+        android:layout_alignParentTop="true"
+        android:focusable="false"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/detail_button_text1"
+        android:layout_width="@dimen/detail_button_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detail_button_icon1"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:textColor="@drawable/tui_text_color_select"
+        android:textSize="@dimen/tui_text_size_2" />
+
+</com.yunos.tv.yingshi.widget.DetailButton>

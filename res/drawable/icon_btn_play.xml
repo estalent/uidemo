@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- 先后次序是if-else关系 -->
+    <item android:state_focused="true" android:drawable="@drawable/tui_ic_btn_play_focus"/>
+    <item android:drawable="@drawable/tui_ic_btn_play_normal"/>
+
+</selector>

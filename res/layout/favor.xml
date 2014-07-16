@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.yunos.tv.app.widget.FocusedGridView
+        android:id="@+id/gridimage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:columnWidth="@dimen/grid_middle_w"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="6"
+        android:scrollbars="none"
+        android:paddingLeft="60dip"
+        android:paddingTop="20dip"
+        android:paddingRight="60dip"
+        android:paddingBottom="0dip"
+        android:stretchMode="spacingWidth" 
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:id="@+id/nodata_favor"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="@dimen/image_favor_nodata_w"
+            android:layout_height="@dimen/image_favor_nodata_h"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/tui_film_blankicon_collection" />
+
+        <TextView
+            android:id="@+id/nodata_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="48dip"
+            android:gravity="center"
+            android:text="@string/favor_null"
+            android:textColor="@color/tui_text_color_grey"
+            android:textSize="@dimen/tui_text_size_3" />
+    </LinearLayout>
+
+</LinearLayout>

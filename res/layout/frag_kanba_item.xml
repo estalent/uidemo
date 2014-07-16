@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="270dp"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:paddingBottom="77dp"
+    android:paddingTop="21dp" >
+
+    <FrameLayout
+        android:id="@+id/channel_lay"
+        android:layout_width="240dip"
+        android:layout_height="172dip"
+        android:background="@drawable/tv_playback_tvlogo_bg">
+
+        <ImageView
+            android:id="@+id/channel_icon"
+            android:layout_width="180dip"
+            android:layout_height="129dip"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter" />
+    </FrameLayout>
+
+</LinearLayout>

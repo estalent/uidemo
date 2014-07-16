@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yunostv="http://schemas.android.com/apk/res/com.yunos.tv.yingshi"
+    android:layout_width="@dimen/grid_small_w"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="14dip"
+    android:paddingTop="10dip" >
+
+    <com.yunos.tv.yingshi.widget.YingshiImageView
+        android:id="@+id/image_maybelove"
+        android:layout_width="@dimen/image_small_w"
+        android:layout_height="@dimen/image_small_h"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="5dip"
+        android:paddingLeft="4dip"
+        android:paddingRight="4dip"
+        android:paddingTop="4dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/tv_film_black_cover_small"
+        yunostv:face="@drawable/tv_film_cover_small_normal"
+        yunostv:size="small" />
+
+    <TextView
+        android:id="@+id/text_maybelove"
+        android:layout_width="@dimen/grid_small_w"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tui_margin_2"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:paddingBottom="5dip"
+        android:singleLine="true"
+        android:tag="txt_marquee_focus"
+        android:textColor="@drawable/text_color"
+        android:textSize="@dimen/tui_text_size_2" />
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yunostv="http://schemas.android.com/apk/res/com.yunos.tv.yingshi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp" >
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+            
+			<LinearLayout
+	            android:layout_width="390dp"
+	            android:layout_height="500dp"
+	            android:layout_marginTop="77dp"
+	            android:layout_gravity="center_horizontal"
+	            android:orientation="horizontal">
+			    
+                <com.yunos.tv.yingshi.widget.ZixunImageView
+                    android:id="@+id/AbstractFigure"
+                    android:layout_width="269dp"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="top"
+                    yunostv:mask="@drawable/tv_homeshell_groupmask_normal"
+                    android:scaleType="fitXY"           
+           			yunostv:size="large"
+                    yunostv:poster_height="396dp" 
+                    yunostv:reflection_gap_top="5dp"
+                    yunostv:reflection_height="89dp"/>
+
+                <ImageView
+	                android:layout_width="121dp"
+	                android:layout_height="500dp"
+	                android:layout_gravity="top"
+	                android:src="@drawable/tv_film_preview_mask02"/>
+			</LinearLayout>
+                        
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center" >
+			<!-- 
+            <com.yunos.tv.yingshi.widget.ZixunListView
+                android:id="@+id/infoList"
+                android:layout_width="480dp"
+                android:layout_height="542dp"
+                android:layout_gravity="top|right"
+                android:layout_marginRight="@dimen/tui_padding_5"
+                android:layout_marginTop="@dimen/tui_padding_4"
+                android:listSelector="#00000000"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:focusable="true"
+                android:focusableInTouchMode="false" 
+                yunostv:focus_bg="@drawable/tui_bg_focus"
+                yunostv:focus_expanding_left="10dp"
+                yunostv:focus_expanding_top="6.5dp"
+                yunostv:focus_expanding_right="4dp"
+                yunostv:focus_expanding_bottom="6.5dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:fadingEdgeLength="0dp"
+                android:fadingEdge="none"/>
+            -->
+            <com.yunos.tv.app.widget.FocusedListView
+                android:id="@+id/infoList"
+                android:layout_width="620dp"
+                android:layout_height="539dp"
+                android:layout_gravity="top|right"
+                android:layout_marginRight="@dimen/tui_padding_4"
+                android:layout_marginTop="15dp"
+                android:listSelector="#00000000"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:focusable="true"
+                android:focusableInTouchMode="false" 
+                yunostv:focus_bg="@drawable/tui_bg_focus"
+                yunostv:focus_expanding_left="10dp"
+                yunostv:focus_expanding_top="6.5dp"
+                yunostv:focus_expanding_right="4dp"
+                yunostv:focus_expanding_bottom="6.5dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="60dp"
+                android:paddingBottom="15dp"
+                android:fadingEdgeLength="0dp"
+                android:fadingEdge="none"/>
+        </FrameLayout>
+    </LinearLayout>
+    
+    <TextView android:id="@+id/nodata"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nodata"
+        android:focusable="true"
+        android:textSize="@dimen/tui_text_size_2"
+        android:textColor="@color/tui_text_color_grey"
+        android:layout_marginTop="@dimen/tui_margin_8"
+        android:visibility="gone"
+        android:gravity="center"/>
+</LinearLayout>

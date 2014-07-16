@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yunos.tv.yingshi.widget.DetailButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/detail_button_width"
+    android:layout_height="@dimen/detail_button_height"
+    android:background="@drawable/tui_btn_bg_normal"
+    android:descendantFocusability="beforeDescendants"
+    android:focusable="true" >
+
+    <TextView 
+        android:id="@+id/detail_button_text1"
+        android:layout_width="@dimen/detail_button_text_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="2dip"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:textColor="@drawable/tui_text_color_select"
+        android:textSize="@dimen/tui_text_size_2" />
+
+    <TextView
+        android:id="@+id/detail_button_text2"
+        android:layout_width="70dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detail_button_text1"
+        android:gravity="center"
+        android:singleLine="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:ellipsize="end"
+        android:layout_marginTop="8dip"
+        android:layout_marginLeft="10dp"
+        android:includeFontPadding="false"
+        android:textSize="18sp"
+        android:textColor="@drawable/tui_text_color_select"
+        android:layout_marginBottom="2dip" />
+
+    <ImageView
+        android:id="@+id/detail_button_icon1"
+        android:layout_width="26dip"
+        android:layout_height="18dip"
+        android:layout_marginTop="6dip"
+        android:layout_marginBottom="6dip"
+       	android:layout_toRightOf="@+id/detail_button_text1"
+        android:focusable="false"
+        android:scaleType="fitXY"
+        android:src="@drawable/play_icon_xml" />
+
+</com.yunos.tv.yingshi.widget.DetailButton>

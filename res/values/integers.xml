@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="version_check_interval">86400000</integer>
+    <integer name="yingshi_grid_colum_num">6</integer>
+    <integer name="playback_grid_colum_num">4</integer>
+
+</resources>

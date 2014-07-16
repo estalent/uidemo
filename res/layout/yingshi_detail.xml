@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yunostv="http://schemas.android.com/apk/res/com.yunos.tv.yingshi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/toplay"
+        android:layout_width="1025dip"
+        android:layout_height="wrap_content"
+        android:paddingLeft="70dip" >
+
+        <FrameLayout
+            android:id="@+id/image_lay"
+            android:layout_width="@dimen/image_big_w"
+            android:layout_height="@dimen/image_big_h"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center" >
+
+            <com.yunos.tv.yingshi.widget.YingshiImageView
+                android:id="@+id/image_movie"
+                android:layout_width="@dimen/image_big_w"
+                android:layout_height="@dimen/image_big_h"
+                android:focusable="false"
+                android:paddingBottom="5dip"
+                android:paddingLeft="4dip"
+                android:paddingRight="4dip"
+                android:paddingTop="4dip"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tv_film_black_cover_big_normal"
+                yunostv:face="@drawable/tv_film_cover_big_normal"
+                yunostv:size="big" />
+
+            <TextView
+                android:id="@+id/text_gaoqing"
+                android:layout_width="wrap_content"
+                android:layout_height="48dip"
+                android:layout_gravity="right|top"
+                android:layout_marginTop="32dip"
+                android:background="@drawable/tui_homeshell_tag"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:paddingLeft="8dip"
+                android:paddingTop="1dip"
+                android:textColor="@color/tui_text_color_white"
+                android:textSize="20sp"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/image_lay"
+            android:layout_alignTop="@id/image_lay"
+            android:layout_marginLeft="@dimen/tui_margin_4"
+            android:layout_marginRight="30dip"
+            android:layout_toRightOf="@id/image_lay"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:focusable="false"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:textColor="@color/tui_text_color_white"
+                android:textSize="@dimen/tui_text_size_3" />
+
+            <TextView
+                android:id="@+id/text_director_actor"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:ellipsize="end"
+                android:focusable="false"
+                android:includeFontPadding="false"
+                android:maxLines="2"
+                android:textColor="@color/tui_text_color_grey"
+                android:textSize="@dimen/tui_text_size_2" />
+
+            <TextView
+                android:id="@+id/text_juqing"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:ellipsize="end"
+                android:focusable="false"
+                android:lines="3"
+                android:maxLength="96"
+                android:textColor="@color/tui_text_color_grey"
+                android:textSize="@dimen/tui_text_size_2" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1.0" />
+            <!-- com.yunos.tv.app.widget.FocusedRelativeLayout -->
+
+            <com.yunos.tv.app.widget.FocusedRelativeLayout
+                android:id="@+id/linear_btnWrap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:descendantFocusability="beforeDescendants"
+                android:fadingEdge="none"
+                android:focusable="true"
+                android:nextFocusDown="@+id/list_maybe_love"
+                android:visibility="gone" >
+            </com.yunos.tv.app.widget.FocusedRelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="12dip"
+                android:layout_marginRight="12dip"
+                android:layout_marginTop="15dip"
+                android:background="#8d8d8d" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/image_ad"
+        android:layout_width="208dip"
+        android:layout_height="510dip"
+        android:layout_marginLeft="1035dip"
+        android:layout_marginTop="45dip"
+        android:adjustViewBounds="true"
+        android:focusable="false"
+        android:scaleType="fitCenter"
+        android:src="@drawable/default_ad" />
+
+    <com.yunos.tv.app.widget.FocusedHorizontalListView
+        android:id="@+id/list_maybe_love"
+        android:layout_width="1063dip"
+        android:layout_height="320dip"
+        android:layout_gravity="bottom"
+        android:cacheColorHint="@android:color/transparent"
+        android:listSelector="@android:color/transparent"
+        android:nextFocusUp="@id/linear_btnWrap"
+        android:paddingLeft="55dip"
+        android:paddingRight="55dip"
+        android:paddingTop="55dip"
+        android:scrollbars="none" />
+
+</FrameLayout>

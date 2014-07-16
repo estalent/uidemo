@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="my_transparent">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+    </style>
+
+    <!--
+     <item name="android:windowFrame">@null</item>
+     <item name="android:backgroundDimEnabled">false</item>
+
+    -->
+
+    <style name="my_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@drawable/tui_dialog_bg</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+    </style>
+    
+    
+    <style name="treaty_dialog" parent="android:Theme.Holo.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@drawable/yingshi_agreement</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+    </style>
+
+    <style name="DialogButton">
+        <item name="android:background">@drawable/tui_dialog_bg</item>
+        <item name="android:textColor">@color/tui_text_color_white</item>
+        <item name="android:textSize">@dimen/tui_text_size_3</item>
+    </style>
+    
+   	<style name="search_right_normal_textSize">
+        <item name="android:textSize">@dimen/tui_text_size_3</item>
+    </style>
+    
+    <style name="search_right_selected_textSize">
+        <item name="android:textSize">@dimen/tui_text_size_2</item>
+    </style>
+
+</resources>

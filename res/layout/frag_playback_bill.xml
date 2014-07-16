@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yunostv="http://schemas.android.com/apk/res/com.yunos.tv.yingshi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/bill_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/img_lay"
+            android:layout_width="420dp"
+            android:layout_height="520dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="98dp"
+            android:background="@drawable/tv_playback_tvlogo_bg_big"
+            android:orientation="horizontal"
+            android:paddingBottom="30dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <ImageView
+                android:id="@+id/channel_img"
+                android:layout_width="195dp"
+                android:layout_height="195dp"
+                android:layout_marginTop="95dp" />
+
+            <TextView
+                android:id="@+id/channel_name"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="165dp"
+                android:scrollHorizontally="true" 
+                android:gravity="center_horizontal"
+                android:singleLine="true" 
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:textSize="32sp"/>
+        </LinearLayout>
+
+        <com.yunos.tv.app.widget.FocusedListView
+            android:id="@+id/programList"
+            android:layout_width="660dp"
+            android:layout_height="600dp"
+            android:layout_gravity="top|right"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="18dp"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:listSelector="#00000000"
+            android:paddingBottom="15dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="50dp"
+            yunostv:focus_expanding_bottom="6.5dp"
+            yunostv:focus_expanding_left="10dp"
+            yunostv:focus_expanding_right="4dp"
+            yunostv:focus_expanding_top="6.5dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/nodata"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tui_margin_8"
+        android:gravity="center"
+        android:text="@string/nodata"
+        android:textColor="@color/tui_text_color_grey"
+        android:textSize="@dimen/tui_text_size_2"
+        android:visibility="gone" />
+
+</LinearLayout>

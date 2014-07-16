@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="frame_gridview">4</integer>
+    <integer name="frame_listview">3</integer>
+    <integer name="frame_list_detail">3</integer>
+    <integer name="dur_gridview">1200</integer>
+    <!-- 1200默认 -->
+    <integer name="dur_list_detail">300</integer>
+    <!-- 　默认900 -->
+    <integer name="image_fade_time">400</integer>
+
+</resources>

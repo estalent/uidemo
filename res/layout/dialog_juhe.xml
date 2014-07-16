@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android:background="#b0000000" -->
+<!-- 高105*2 + 70 + 20 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="840dip"
+    android:layout_height="wrap_content"
+    android:background="#a0000000"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <com.yunos.tv.yingshi.widget.GridViewEx
+        android:id="@+id/grid_xuanji"
+        android:layout_width="840dip"
+        android:layout_height="320dip"
+        android:paddingLeft="50dip"
+        android:paddingRight="30dip"
+        android:paddingTop="10dip"
+        android:paddingBottom="10dip"
+        android:layout_marginBottom="60dip"
+        android:layout_marginTop="50dip"
+        android:columnWidth="@dimen/dialog_juhe_source_item_w"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:listSelector="@drawable/tui_bg_focus_xml_c"
+        android:numColumns="5"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbarThumbVertical="@drawable/tui_scrollbar_xml"
+        android:stretchMode="spacingWidth"
+        android:verticalSpacing="70dip" >
+    </com.yunos.tv.yingshi.widget.GridViewEx>
+
+</LinearLayout>

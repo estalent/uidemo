@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.TV.NoActionBar" parent="android:Theme.Holo.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/tui_window_master_bg</item>
+    </style>
+
+    <!-- android:theme="@yunos:style/Theme.Ali.TV" -->
+    <style name="Theme.Global" parent="@yunos:style/Theme.Ali.TV">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/tui_bg_2</item>
+    </style>
+
+</resources>

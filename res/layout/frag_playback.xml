@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/playback_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <com.yunos.tv.yingshi.widget.PlaybackFocusedGridView
+            android:id="@+id/playback_grid"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:columnWidth="@dimen/playback_item_h"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="@integer/playback_grid_colum_num"
+            android:paddingLeft="100dp"
+            android:paddingRight="100dp"
+            android:paddingTop="21dip"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/nodata"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tui_margin_8"
+        android:focusable="false"
+        android:gravity="center"
+        android:text="@string/nodata"
+        android:textColor="@color/tui_text_color_grey"
+        android:textSize="@dimen/tui_text_size_2"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yunostv="http://schemas.android.com/apk/res/com.yunos.tv.yingshi"
+    android:id="@+id/layout_image_wrap"
+    android:layout_width="@dimen/image_coverflow_w"
+    android:layout_height="@dimen/grid_coverflow_h"
+    android:gravity="center" >
+ 
+    <com.yunos.tv.yingshi.widget.MaskImageView
+        android:id="@+id/image_yingshi_grid"
+        android:layout_width="@dimen/image_coverflow_w"
+        android:layout_height="@dimen/image_coverflow_h"
+        android:focusable="false"
+        android:scaleType="fitXY"
+        android:src="@drawable/tv_film_black_cover_middle_normal"
+        yunostv:face="@drawable/tv_film_cover_middle_normal"
+        yunostv:size="middle"/>
+
+    <TextView
+        android:id="@+id/text_gaoqing"
+        android:layout_width="wrap_content"
+        android:layout_height="48dip"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/tui_homeshell_small_tag"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:paddingLeft="8dip"
+        android:paddingTop="2dip"
+        android:textColor="@color/tui_text_color_white"
+        android:textSize="@dimen/tui_text_size_1"
+        android:visibility="gone" />
+
+</FrameLayout>

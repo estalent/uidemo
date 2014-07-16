@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yunostv="http://schemas.android.com/apk/res/com.yunos.tv.yingshi"
+    android:layout_width="@dimen/zixun_index_item_w"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="10dip"
+    android:paddingTop="44dip" >
+
+    <FrameLayout
+        android:id="@+id/layout_image_wrap"
+        android:layout_width="@dimen/zixun_index_image_w"
+        android:layout_height="@dimen/zixun_index_image_h"
+        android:gravity="center" >
+
+        <com.yunos.tv.yingshi.widget.YingshiImageView
+            android:id="@+id/image_yingshi_grid"
+            android:layout_width="@dimen/zixun_index_image_w"
+            android:layout_height="@dimen/zixun_index_image_h"
+            android:paddingBottom="5dip"
+            android:paddingLeft="4dip"
+            android:paddingRight="4dip"
+            android:paddingTop="4dip"
+            android:scaleType="fitXY"
+            yunostv:face="@drawable/tv_film_videoframe"
+            yunostv:size="zixun_index" />
+
+        <ImageView
+            android:id="@+id/play_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_tv_film_videoplay" />
+    </FrameLayout>
+
+    <com.yunos.tv.app.widget.MarqueeTextView
+        android:id="@+id/text_yingshi_grid"
+        android:layout_width="@dimen/zixun_index_image_w"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tui_margin_2"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:paddingBottom="10dip"
+        android:singleLine="true"
+        android:textColor="@drawable/text_color"
+        android:textSize="@dimen/tui_text_size_2" />
+    <!--
+            android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+    -->
+
+</LinearLayout>
